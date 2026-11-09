@@ -14,46 +14,49 @@
 
   <body class="body">
     <main class="main">
-      <section>
-        <h1 class="page_title">
-          <span data-aos="fade-right" data-aos-duration="500">frontend –</span><br>
-          <span data-aos="fade-right" data-aos-duration="500" data-aos-delay="150">разработчик</span>
-        </h1>
-
-        <div class="info">
+      <section class="info">
+        <div>
+          <h1 class="page_title">
+            <span data-aos="fade-right" data-aos-duration="500">frontend –</span><br>
+            <span data-aos="fade-right" data-aos-duration="500" data-aos-delay="150">разработчик</span>
+          </h1>
           <p>
             <span data-aos="fade-up" data-aos-duration="500">Здравствуйте, меня зовут Александр.</span><br>
-            <span data-aos="fade-up" data-aos-duration="500" data-aos-delay="150">Я - фрилансер с опытом работы более 5 лет.</span>
+            <span data-aos="fade-up" data-aos-duration="500" data-aos-delay="150">Я - фронтендер с опытом работы более 5 лет.</span>
           </p>
-
-          <img data-aos="fade-right" data-aos-duration="500" src="./img/ava.webp" width="160" height="160" alt="">
         </div>
+
+        <img class="info__avatar" data-aos="fade-left" data-aos-duration="500" src="./img/ava.webp" width="400" height="400" alt="">
+        <img class="info__arc-1" src="./img/ava-arc-1.svg" width="235" alt="" data-aos="fade-down" data-aos-duration="500" data-aos-delay="250">
+        <img class="info__arc-2" src="./img/ava-arc-2.svg" width="200" alt="" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">
+        <img class="info__arc-3" src="./img/ava-arc-3.svg" width="160" alt="" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">
       </section>
 
       <section>
-        <div class="hr hr--to_left"></div>
+        <div class="hr hr--to_right" data-aos="fade-right" data-aos-duration="500"></div>
 
-        <h2 class="caption">
+        <h2 class="caption" data-aos="fade-up" data-aos-duration="500">
           ключевые навыки
         </h2>
 
         <ul class="skills">
-          <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">HTML</li>
-          <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="550">CSS</li>
+          <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">CSS</li>
+          <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="550">HTML</li>
           <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="600">JavaScript</li>
           <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="650">jQuery</li>
           <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="700">Sass/Less</li>
+          <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="750">React</li>
+          <li class="skills__item" data-aos="fade-up" data-aos-duration="750" data-aos-delay="800">TypeScript</li>
         </ul>
-
-        <div class="hr hr--to_right"></div>
       </section>
 
       <section>
-        <div class="hr hr--to_left"></div>
-
-        <h2 class="caption">
-          мои проекты
-        </h2>
+        <div class="caption-block">
+          <h2 class="caption" data-aos="fade-right" data-aos-duration="500">
+            мои проекты
+          </h2>
+          <div class="hr hr--to_left" data-aos="fade-left" data-aos-duration="500"></div>
+        </div>
 
         <div class="desc">
           <p data-aos="fade-up" data-aos-duration="600">Основным направлением моей деятельности является вёрстка сайтов на основе макетов, подготовленных в Figma. Также осуществляю техническую поддержку и доработку действующих проектов. В 2024–2025 годах участвовал в разработке системы управления контентом (CMS).</p>
@@ -65,174 +68,236 @@
           <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/bd.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Белая Дача</h3>
-
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              09.2021 - н.в.
-            </p>
-
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Тех. поддержка сайта, разработка новых страниц, управление контентом на Adrecom CMS.
-            </p>
-
-            <div class="projects__links">
-              <a class="projects__link" href="https://bdsalads.ru/">Сайт</a>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Белая Дача</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Тех. поддержка сайта, разработка новых страниц, управление контентом на Adrecom CMS.
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://bdsalads.ru/">Prod</a>
+              </div>
             </div>
           </li>
 
           <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/ermolino.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Ермолино</h3>
-
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              06.2022 - н.в.
-            </p>
-
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Тех. поддержка сайта, разработка новых страниц, управление контентом на Adrecom CMS.
-            </p>
-
-            <div class="projects__links">
-              <a class="projects__link" href="https://ermolino-produkty.ru">Сайт</a>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Ермолино</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Тех. поддержка сайта, разработка новых страниц, управление контентом на Adrecom CMS.
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://ermolino-produkty.ru">Prod</a>
+              </div>
             </div>
           </li>
 
           <li class="projects__item">
+            <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/energofront.webp" width="400" height="225" alt="">
+
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">ЭнергоФронт</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://energofront.ru/">Prod</a>
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/energofront/">Dev</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/pesok.webp" width="400" height="225" alt="">
+
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Песок</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/pesok/">Dev</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="projects__item">
+            <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/dreamfair.webp" width="400" height="225" alt="">
+
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">DreamFair</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/dreamfair/">Dev</a>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/goodskin.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">ПрофУход</h3>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">ПрофУход</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://skinprof.ru/">Prod</a>
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/goodskin/">Dev</a>
+              </div>
+            </div>
+          </li>
 
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              05.2026
-            </p>
+          <li class="projects__item">
+            <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/agroport.webp" width="400" height="225" alt="">
 
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Вёрстка сайта
-            </p>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Агропорт</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://www.agroport-it.ru/">Prod</a>
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/agroport/">Dev</a>
+              </div>
+            </div>
+          </li>
 
-            <div class="projects__links">
-              <a class="projects__link" href="https://skinprof.ru/">Сайт</a>
+          <li class="projects__item">
+            <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/magnumhunt.webp" width="400" height="225" alt="">
+
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Магнум Хант</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://magnumhunt.ru/">Prod</a>
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/magnumhunt/">Dev</a>
+              </div>
             </div>
           </li>
 
           <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/reasystems.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">РеаСистемс</h3>
-
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              11.2023
-            </p>
-
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Вёрстка сайта
-            </p>
-
-            <div class="projects__links">
-              <a class="projects__link" href="https://github.com/AleksandrParshukov/reasystems">GitHub</a>
-              <a class="projects__link" href="https://aleksandrparshukov.github.io/reasystems/">GitPages</a>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">РеаСистемс</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/reasystems/">Dev</a>
+              </div>
             </div>
           </li>
 
           <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/dyson.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Dyson</h3>
-
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              09.2023
-            </p>
-
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Вёрстка сайта
-            </p>
-
-            <div class="projects__links">
-              <a class="projects__link" href="https://dyson.msk.ru/">Сайт</a>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Dyson</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://dyson.msk.ru/">Prod</a>
+              </div>
             </div>
           </li>
 
           <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/priolac.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Priolac</h3>
-
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              06.2023
-            </p>
-
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Вёрстка сайта
-            </p>
-
-            <div class="projects__links">
-              <a class="projects__link" href="https://priolac.ru/">Сайт</a>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Priolac</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://priolac.ru/">Prod</a>
+              </div>
             </div>
           </li>
 
           <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/goldpelican.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Золотой Пеликан</h3>
-
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              11.2022
-            </p>
-
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Вёрстка сайта
-            </p>
-
-            <div class="projects__links">
-              <a class="projects__link" href="https://ag-pelikan.ru/">Сайт</a>
-              <a class="projects__link" href="https://github.com/AleksandrParshukov/goldenPelican">GitHub</a>
-              <a class="projects__link" href="https://aleksandrparshukov.github.io/goldenPelican/">GitPages</a>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Золотой Пеликан</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка сайта
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://ag-pelikan.ru/">Prod</a>
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/goldenPelican/">Dev</a>
+              </div>
             </div>
           </li>
 
           <li class="projects__item">
             <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/raiff-lenta.webp" width="400" height="225" alt="">
 
-            <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Райффайзенбанк</h3>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Райффайзенбанк</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Вёрстка лендингов для Райффайзенбанка.
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/lenta-raiff/">Dev</a>
+              </div>
+            </div>
+          </li>
 
-            <p class="projects__date" data-aos="fade-up" data-aos-duration="500">
-              09.2021 - н.в.
-            </p>
+          <li class="projects__item">
+            <img data-aos="fade-right" data-aos-duration="500" class="projects__img" src="./img/squreup.webp" width="400" height="225" alt="">
 
-            <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-              Вёрстка лендингов для Райффайзенбанка.
-            </p>
-
-            <div class="projects__links">
-              <a class="projects__link" href="https://github.com/AleksandrParshukov/lenta-raiff">GitHub</a>
-              <a class="projects__link" href="https://aleksandrparshukov.github.io/lenta-raiff/">GitPages</a>
+            <div class="projects__content">
+              <h3 class="projects__name" data-aos="fade-up" data-aos-duration="500">Square Up</h3>
+              <p class="projects__desc" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                Pet-проект
+              </p>
+              <div class="projects__links">
+                <a class="projects__link" href="https://aleksandrparshukov.github.io/pet-digital-studio-squreUp/">Dev</a>
+              </div>
             </div>
           </li>
         </ul>
-
-        <div class="hr hr--to_right"></div>
       </section>
+    </main>
 
-      <section>
+    <footer class="footer">
+      <div class="hr hr--to_left" data-aos="fade-left" data-aos-duration="500"></div>
+
+      <div class="footer__wrapper">
+        <img class="footer__arc" src="./img/bottom-arc.svg" width="400" alt="">
+
+        <div class="footer__text">
+          <p class="footer__caption caption" data-aos="fade-up" data-aos-duration="500" data-aos-offset="0">Есть интересный проект?</p>
+          <p data-aos="fade-up" data-aos-duration="500" data-aos-offset="0">Буду рад обсудить сотрудничество.</p>
+        </div>
+
         <ul class="socials">
-          <li>
-            <a class="socials__item" href="https://github.com/AleksandrParshukov/" data-aos="fade-up" data-aos-duration="750" data-aos-delay="500">
+          <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="250" data-aos-offset="0">
+            <a class="socials__item" href="https://github.com/AleksandrParshukov/">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M19.9981 0C8.95545 0 0 8.94547 0 19.981C0 28.8074 5.73008 36.2969 13.6775 38.9403C14.6782 39.123 15.0428 38.5059 15.0428 37.9762C15.0428 37.5015 15.0256 36.2455 15.0158 34.5786C9.45272 35.7855 8.27894 31.8997 8.27894 31.8997C7.36914 29.5913 6.0579 28.9766 6.0579 28.9766C4.24199 27.7378 6.1954 27.7625 6.1954 27.7625C8.20282 27.9034 9.2587 29.8218 9.2587 29.8218C11.0427 32.8747 13.9403 31.9929 15.0796 31.4815C15.2613 30.191 15.7782 29.3104 16.3492 28.8111C11.9083 28.3057 7.23901 26.5923 7.23901 18.936C7.23901 16.7539 8.01864 14.9717 9.29801 13.5746C9.09175 13.0692 8.40541 11.038 9.49446 8.28678C9.49446 8.28678 11.1728 7.74954 14.9937 10.3339C16.5886 9.89113 18.3001 9.67035 20.0006 9.66176C21.6998 9.67035 23.4101 9.89113 25.0075 10.3339C28.8259 7.74954 30.5017 8.28678 30.5017 8.28678C31.5934 11.038 30.9071 13.0692 30.702 13.5746C31.9838 14.9717 32.7573 16.7539 32.7573 18.936C32.7573 26.6119 28.0806 28.3009 23.6262 28.7951C24.3432 29.4123 24.9829 30.6315 24.9829 32.4958C24.9829 35.166 24.9584 37.3212 24.9584 37.9762C24.9584 38.511 25.3193 39.1329 26.3335 38.9376C34.2749 36.2897 40 28.8062 40 19.981C40 8.94547 31.0445 0 19.9981 0Z" fill="currentColor" />
               </svg>
             </a>
           </li>
-          <li>
-            <a class="socials__item" href="https://t.me/Sc1nnik" data-aos="fade-up" data-aos-duration="750" data-aos-delay="600">
+          <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-offset="0">
+            <a class="socials__item" href="https://t.me/Sc1nnik">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M36.5898 3.29737C36.5898 3.29737 40.2901 1.83933 39.9817 5.3803C39.879 6.83836 38.9539 11.9415 38.2344 17.4613L35.7675 33.8123C35.7675 33.8123 35.562 36.2076 33.7118 36.6242C31.8616 37.0408 29.0865 35.1662 28.5725 34.7496C28.1614 34.4372 20.8636 29.7505 18.2939 27.4593C17.5744 26.8345 16.7521 25.5847 18.3967 24.1266L29.1893 13.7121C30.4227 12.4623 31.6561 9.54619 26.5168 13.0872L12.1268 22.9811C12.1268 22.9811 10.4822 24.0225 7.39867 23.0852L0.717544 21.0023C0.717544 21.0023 -1.74932 19.4401 2.46491 17.8778C12.7435 12.9829 25.3862 7.98391 36.5898 3.29737Z" fill="currentColor" />
               </svg>
-
             </a>
           </li>
-          <li>
-            <a class="socials__item" href="mailto:porshe97@yandex.ru" data-aos="fade-up" data-aos-duration="750" data-aos-delay="700">
+          <li data-aos="fade-up" data-aos-duration="500" data-aos-delay="750" data-aos-offset="0">
+            <a class="socials__item" href="mailto:porshe97@yandex.ru">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_12_2)">
                   <path d="M30.9109 34.5454C27.8717 36.8287 24.0939 38.1818 20 38.1818C9.95847 38.1818 1.81818 30.0416 1.81818 20C1.81818 9.95846 9.95847 1.81818 20 1.81818C30.0416 1.81818 38.1818 9.95846 38.1818 20V23.0303C38.1818 25.8196 35.9206 28.0808 33.1313 28.0808C30.342 28.0808 28.0808 25.8196 28.0808 23.0303V11.9192M28.0808 20C28.0808 24.4628 24.4628 28.0808 20 28.0808C15.5371 28.0808 11.9192 24.4628 11.9192 20C11.9192 15.5371 15.5371 11.9192 20 11.9192C24.4628 11.9192 28.0808 15.5371 28.0808 20Z" stroke="currentColor" stroke-width="3.63636" stroke-linecap="round" stroke-linejoin="round" />
@@ -246,12 +311,16 @@
             </a>
           </li>
         </ul>
-      </section>
-    </main>
+      </div>
+
+      <div class="hr hr--to_right" data-aos="fade-right" data-aos-duration="500" data-aos-offset="0"></div>
+    </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
 
   </body>
